@@ -9,7 +9,7 @@ import base64
 st.set_page_config(page_title='Intelligent Health Command Center', page_icon='🧠', layout='wide', initial_sidebar_state='collapsed')
 
 NAVY='#1B365D'; CYAN='#00A3E0'; TEAL='#007681'; BG='#F4F7F9'
-LOGO_PATH=Path('assets/moh_nhcc_logo.png')
+LOGO_PATH=Path('IMG')
 
 def html(x):
     st.markdown(textwrap.dedent(x).strip(), unsafe_allow_html=True)
